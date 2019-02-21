@@ -2,7 +2,7 @@
 <package version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns# rendition: http://www.idpf.org/vocab/rendition/#" xmlns="http://www.idpf.org/2007/opf">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-        <dc:title id="title">Untitled Book</dc:title>
+        <dc:title id="title">Digital Image Processing</dc:title>
 
         <dc:identifier id="pub-id">urn:uuid:ecbd6a6b-f6ad-eb6e-37be-4cb582f60c87</dc:identifier>
         <meta name="cover" content="img0" />
@@ -12,12 +12,15 @@
         <dc:rights>Kotobee</dc:rights>
         <dc:language>en</dc:language>
         <dc:description>No description available</dc:description>
-        <meta property="dcterms:modified">2019-02-14T12:52:02Z</meta>
+        <meta property="dcterms:modified">2019-02-21T17:17:29Z</meta>
         <meta property="rendition:layout">reflowable</meta>
 
     </metadata>
     <manifest>
         <item id="html0" href="xhtml/raw/ch1.xhtml" media-type="application/xhtml+xml"/>
+<item id="html1" href="xhtml/raw/s9tooq.xhtml" media-type="application/xhtml+xml"/>
+<item id="html2" href="xhtml/raw/stmqjx.xhtml" media-type="application/xhtml+xml"/>
+<item id="html3" href="xhtml/raw/srep1m.xhtml" media-type="application/xhtml+xml"/>
 <item id="contents" href="xhtml/raw/contents.xhtml"  properties="nav" media-type="application/xhtml+xml"/>
 <item id="ncx" href="xhtml/raw/contents.ncx"  media-type="application/x-dtbncx+xml"/>
 <item id="img0" href="imgs/defaultCover.png" properties="cover-image" media-type="image/png"/>
@@ -25,6 +28,9 @@
     </manifest>
     <spine toc="ncx">
         <itemref idref="html0" properties="rendition:layout-reflowable"/>
+<itemref idref="html1" properties="rendition:layout-reflowable"/>
+<itemref idref="html2" properties="rendition:layout-reflowable"/>
+<itemref idref="html3" properties="rendition:layout-reflowable"/>
 
     </spine>
 
