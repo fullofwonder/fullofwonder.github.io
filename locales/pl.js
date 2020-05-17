@@ -67,7 +67,7 @@
 "bookmarks":"Zakładki",
 "highlights":"Podświetlenia",
 "noNotesAvailable":"Brak notatek",
-"addNotesHintMsg":"Możesz dodawać notatki i zakładki do każdego rozdziału lub do zdań wewnątrz rozdziałów klikając i przytrzymując zdanie",
+"addNotesHintMsg": "Aby dodać notatkę, wybierz żądane słowo lub zdanie, kliknij przycisk Notatka, wpisz notatkę i naciśnij Zapisz. Aby dodać notatkę do strony, kliknij przycisk Notatka w prawym górnym rogu ekranu.","addBookmarksHintMsg": "Aby dodać zakładkę do strony, kliknij przycisk Bookmark w prawym górnym rogu ekranu.","addHighlightsHintMsg": "Aby podświetlić słowo lub zdanie, wybierz żądane słowo lub zdanie, kliknij przycisk Podświetl, wybierz kolor i naciśnij Zapisz.",
 "chapter":"Rozdział",
 "export":"Eksportuj",
 "share":"Udostępnij",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"Nie możesz wykorzystać tego kodu promocyjnego. Spróbuj ponownie.",
 "s_alreadyRedeemed":"Ten kod promocyjny został już wykorzystany",
 "s_codeNoLongerValid":"Ten kod promocyjny jest już nieważny",
-"unexpectedError":"Nieoczekiwany błąd wystąpił podczas tego procesu. Proszę spróbować ponownie.",    "viewMode":"Widok strony",    "auto":"Automatyczny",    "scroll":"Zwój"	
+"unexpectedError":"Nieoczekiwany błąd wystąpił podczas tego procesu. Proszę spróbować ponownie.",    "viewMode":"Widok strony",    "auto":"Automatyczny",    "scroll":"Zwój",    "restricted":"Ograniczony",    "dontAskAgain":"Nie pytaj ponownie",    "hlightDeleteConfirm":"Czy na pewno chcesz usunąć to wyróżnienie?",	"updateAvailable":     "Dostępna aktualizacja",	"updateAvailableDesc": "Dostępna jest aktualizacja tej książki. Czy chcesz ją teraz zaktualizować?",    "updating":            "Aktualizacja",    "update":              "Aktualizacja"	  	
 }

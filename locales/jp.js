@@ -67,7 +67,7 @@
 "bookmarks":"ブックマーク",
 "highlights":"ハイライト",
 "noNotesAvailable":"メモがありません",
-"addNotesHintMsg":"チャプター毎でメモとブックマークが追加できる、チャプターの句にタッピングとホールディングで句にメモも追加できます",
+"addNotesHintMsg":"メモを追加するには、目的の単語または文を選択し、[メモ]ボタンをクリックしてメモを入力し、[保存]をクリックします。ページにメモを追加するには、画面の右上にある[メモ]ボタンをクリックします。 ","addBookmarksHintMsg":"ページにブックマークを追加するには、画面の右上隅にあるブックマークボタンをクリックしてください。 ","addHighlightsHintMsg":"単語または文をハイライトするには、目的の単語または文を選択し、[ハイライト]ボタンをクリックして色を選択し、[保存]をクリックしてください。 ",
 "chapter":"チャプター",
 "export":"エクスポート",
 "share":"シェア",
@@ -244,7 +244,7 @@
 "wikipediaLookup":"ウィキペディア検索",
 "bookUpdateAvailable":"この本のアップデートが可能です。いますぐダウンロードしますか？",
 "openFromCloud":"クラウドから開く",
-"print":"Print",
+"print":"印刷する",
 "pdf":"PDF",
 "savePdfUnsupportedInPreview":"PDFエクスポートはプレビューモードではサポートされていません。 eBookをエクスポートして体験してください.",
 "categoryA-Z":"カテゴリー AからZ",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"現在使われているコードは利用できません。もう一度お試しください",
 "s_alreadyRedeemed":"このプロモコードはすでに利用されています",
 "s_codeNoLongerValid":"このプロモコードはもう使えません",
-"unexpectedError":"プロセス中にエラーが発生しました。もう一度お試しください",    "viewMode":"ページビュー",    "auto":"オート",    "scroll":"スクロール"
+"unexpectedError":"プロセス中にエラーが発生しました。もう一度お試しください",    "viewMode":"ページビュー",    "auto":"オート",    "scroll":"スクロール",    "restricted":"制限あり",    "dontAskAgain":"二度と聞かないで",    "hlightDeleteConfirm":"このハイライトを削除してもよろしいですか？",	"updateAvailable":     "アップデート可能",	"updateAvailableDesc": "この本のアップデートが利用可能です。今すぐアップデートしますか？",    "updating":            "更新中",    "update":              "更新"
 }

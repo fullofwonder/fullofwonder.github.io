@@ -39,17 +39,27 @@
 }
 
 #kotobee .kotobeeGradient h1.title,
-#kotobee .kotobeeGradient .buttons a.button  {
+#kotobee .kotobeeGradient .buttons a.button, 
+#kotobee .kotobeeGradient .buttons button  {
     color: {{headerColor}};
 }
 
 /*chapters panel*/
 #chaptersContent {
-    background-color: {{chaptersBG}};
+    background-color: {{chaptersBG}} !important;
 }
 
 #chaptersContent li a, #chaptersContent li i{
     color: {{chaptersColor}};
+}
+#chapterMenu .bar{
+    background-color: {{chaptersBG}};
+}
+#chapterMenu .bar .title{
+    color: {{chaptersColor}};
+}
+#chaptersContent #chaptersInner li.selected > a{
+    color: {{selectedChapterColor}} !important;
 }
 
 /*tabs BG*/
@@ -70,7 +80,7 @@
 
 /*library BG*/
 #kotobee #libraryThumbs {
-    background-color: {{libraryColor}};
+    background-color: {{libraryColor}} !important;
 }
 
 /*chapters book info BG*/

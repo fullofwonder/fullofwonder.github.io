@@ -67,7 +67,7 @@
 "bookmarks":"Buchzeichen",
 "highlights":"Highlights",
 "noNotesAvailable":"Keine Notizen verfügbar",
-"addNotesHintMsg":"Durch langes Tippen und halten, können Sie Notizen und Lesezeichen zu jedem Kapitel hinzufügen.",
+"addNotesHintMsg": "Um eine Notiz hinzuzufügen, wählen Sie das gewünschte Wort oder den gewünschten Satz aus, klicken Sie auf die Notizschaltfläche, geben Sie Ihre Notiz ein und klicken Sie auf Speichern. Um eine Notiz zur Seite hinzuzufügen, klicken Sie auf die Notizschaltfläche oben rechts im Bildschirm.","addBookmarksHintMsg": "Um der Seite ein Lesezeichen hinzuzufügen, klicken Sie auf die Schaltfläche Lesezeichen in der rechten oberen Ecke des Bildschirms.","addHighlightsHintMsg": "Um ein Wort oder einen Satz zu markieren, wählen Sie das gewünschte Wort oder den gewünschten Satz aus, klicken Sie auf die Schaltfläche Hervorheben, wählen Sie eine Farbe aus und klicken Sie auf Speichern.",
 "chapter":"Kapitel",
 "export":"Export",
 "share":"Freigeben",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"Sie können Ihren aktuellen Promo-Code nicht einlösen. Bitte versuchen Sie es erneut",
 "s_alreadyRedeemed":"Dieser Promo-Code wurde bereits eingelöst",
 "s_codeNoLongerValid":"Dieser Promo-Code ist nicht mehr gültig",
-"unexpectedError":"Dabei ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut",    "viewMode":"Seitenansicht",    "auto":"Auto",    "scroll":"Scrollen"	
+"unexpectedError":"Dabei ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut",    "viewMode":"Seitenansicht",    "auto":"Auto",    "scroll":"Scrollen",    "restricted":"Beschränkt",    "dontAskAgain":"Frag nicht nochmal",    "hlightDeleteConfirm":"Möchten Sie dieses Highlight wirklich entfernen?",	"updateAvailable":     "Update verfügbar",	"updateAvailableDesc": "Für dieses Buch ist ein Update verfügbar. Möchten Sie es jetzt aktualisieren?",    "updating":            "Aktualisierung",    "update":              "Aktualisieren"	
 }

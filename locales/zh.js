@@ -67,7 +67,7 @@
 "bookmarks":"书签",
 "highlights":"突出显示",
 "noNotesAvailable":"没有笔记",
-"addNotesHintMsg":"通过点击并按住句子,你可以添加注释和书签到每一章节，或章节里面的句子",
+"addNotesHintMsg":"要添加备注，请选择所需的单词或句子，单击”备注“按钮，键入备注，然后单击”保存“。要在页面中添加备注，请单击屏幕右上角的”备注“按钮。","addBookmarksHintMsg":"要向页面添加书签，请单击屏幕右上角的”书签“按钮。","addHighlightsHintMsg":"要突出显示单词或句子，请选择所需的单词或句子，单击”突出显示“按钮，选择一种颜色，然后单击”保存。",
 "chapter":"章节",
 "export":"导出",
 "share":"分享",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"您可能无法兑换您当前的优惠码。请重试",
 "s_alreadyRedeemed":"此优惠码已兑换",
 "s_codeNoLongerValid":"此优惠码已无效",
-"unexpectedError":"此过程出现意外错误。请重试",    "viewMode":"页面预览",    "auto":"汽车",    "scroll":"滚动"	
+"unexpectedError":"此过程出现意外错误。请重试",    "viewMode":"页面预览",    "auto":"汽车",    "scroll":"滚动",    "restricted":"受限",    "dontAskAgain":"不要再问了",    "hlightDeleteConfirm":"确定要删除此突出显示吗？",	"updateAvailable":     "可用更新",	"updateAvailableDesc": "这本书有更新。您现在要更新吗？",    "updating":            "正在更新",    "update":              "更新"	
 }

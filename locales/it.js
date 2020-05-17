@@ -67,7 +67,7 @@
 "bookmarks":"Segnalibri",
 "highlights":"In Evidenza",
 "noNotesAvailable":"Nessuna nota disponibile",
-"addNotesHintMsg":"Puoi aggiungere note e segnalibri su ogni capitolo, o sulle frasi nei capitoli tenendo premuta la frase",
+"addNotesHintMsg": "Per aggiungere una nota, selezionare la parola o la frase desiderata, fare clic sul pulsante Nota, digitare la nota e premere Salva. Per aggiungere una nota alla pagina, fare clic sul pulsante Nota nell'angolo in alto a destra dello schermo.","addBookmarksHintMsg": "Per aggiungere un segnalibro alla pagina, fai clic sul pulsante Segnalibro nell'angolo in alto a destra dello schermo.","addHighlightsHintMsg": "Per evidenziare una parola o una frase, seleziona la parola o frase desiderata, fai clic sul pulsante Evidenzia, scegli un colore e premi Salva.",
 "chapter":"Capitolo",
 "export":"Esporta",
 "share":"Condividi",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"Non è possibile riscattare l'attuale codice promozionale. Si prega di riprovare",
 "s_alreadyRedeemed":"Questo codice promozionale è già stato utilizzato",
 "s_codeNoLongerValid":"Questo codice promozionale non è più valido",
-"unexpectedError":"Si è verificato un errore inatteso durante questo processo. Si prega di riprovare",    "viewMode":"Visualizzazione della pagina",    "auto":"Auto",    "scroll":"Scorrere"	
+"unexpectedError":"Si è verificato un errore inatteso durante questo processo. Si prega di riprovare",    "viewMode":"Visualizzazione della pagina",    "auto":"Auto",    "scroll":"Scorrere",    "restricted":"Limitato",    "dontAskAgain":"Non chiedere più",    "hlightDeleteConfirm":"Sei sicuro di voler rimuovere questo momento saliente?",	"updateAvailable":     "Aggiornamento disponibile",	"updateAvailableDesc": "Un aggiornamento è disponibile per questo libro. Desideri aggiornarlo ora?",    "updating":            "In aggiornamento",    "update":              "Aggiornare"	
 }

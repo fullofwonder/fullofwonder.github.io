@@ -67,7 +67,7 @@
 "bookmarks":"Bokmärken",
 "highlights":"Markera",
 "noNotesAvailable":"Inga noteringar tillgänliga",
-"addNotesHintMsg":"Du kan lägga till noteringar och bokmärken till varje kapitel, eller till meningar inne i kapitelen genom att knacka lätt och hålla meningen",
+"addNotesHintMsg": "För att lägga till en anteckning, välj önskat ord eller mening, klicka på Notera, skriv din anteckning och tryck på Spara. Om du vill lägga till en anteckning på sidan klickar du på knappen Notera längst upp till höger på skärmen.","addBookmarksHintMsg": "För att lägga till ett bokmärke på sidan, klicka på bokmärkeknappen längst upp till höger på skärmen.","addHighlightsHintMsg": "För att markera ett ord eller en mening, välj önskat ord eller mening, klicka på knappen Markera, välj en färg och tryck på Spara.",
 "chapter":"Kapitel",
 "export":"Exportera",
 "share":"Dela",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"Du kan inte tillämpa din nuvarande kampanjkod som är i bruk nu.",
 "s_alreadyRedeemed":"Denna kampanjkod har redan tillämpats",
 "s_codeNoLongerValid":"Denna kampanjkod är inte längre giltlig",
-"unexpectedError":"Ett oväntat fel uppstod under denna processen. Vänligen försök igen",    "viewMode":"Sidvy",    "auto":"Bil",    "scroll":"Skrolla"	
+"unexpectedError":"Ett oväntat fel uppstod under denna processen. Vänligen försök igen",    "viewMode":"Sidvy",    "auto":"Bil",    "scroll":"Skrolla",    "restricted":"Begränsad",    "dontAskAgain":"Fråga inte igen",    "hlightDeleteConfirm":"Är du säker på att du vill ta bort den här höjdpunkten?",	"updateAvailable":     "Uppdatering tillgänglig",	"updateAvailableDesc": "En uppdatering är tillgänglig för den här boken. Vill du uppdatera den nu?",    "updating":            "Uppdaterande",    "update":              "Uppdatering"	
 }

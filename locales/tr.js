@@ -67,7 +67,7 @@
 "bookmarks":"Yer imleri",
 "highlights":"Vurgulamalar",
 "noNotesAvailable":"Hiçbir not bulunmamaktadır",
-"addNotesHintMsg":"Her bir bölüme notlar ve yer imleri ya da cümleye dokunarak veya basılı tutarak cümleleri bölümlerin içine ekleyebilirsiniz",
+"addNotesHintMsg": "Bir not eklemek için istediğiniz sözcüğü veya cümleyi seçin, Not düğmesini tıklayın, notunuzu yazın ve Kaydet'e basın. Sayfaya not eklemek için ekranın sağ üst köşesindeki Not düğmesini tıklatın.","addBookmarksHintMsg": "Sayfaya bir yer imi eklemek için, ekranın sağ üst köşesindeki Yer İşareti düğmesini tıklayın.","addHighlightsHintMsg": "Bir sözcüğü veya cümleyi vurgulamak için istediğiniz sözcüğü veya cümleyi vurgulayın, Vurgu düğmesini tıklatın, bir renk seçin ve Kaydet'i tıklayın.",
 "chapter":"Bölüm",
 "export":"Dışarı aktar",
 "share":"Paylaş",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"Geçerli promosyo kodunuzu kullanamayabilirsiniz. Lütfen tekrar deneyin",
 "s_alreadyRedeemed":"Bu promosyon kodu zaten kullanıldı",
 "s_codeNoLongerValid":"Bu promosyon kodu artık geçerli değil",
-"unexpectedError":"Bu işlem sırasında beklenmeyen bir hata oluştu. Lütfen tekrar deneyin",    "viewMode":"Sayfa görünümü",    "auto":"Oto",    "scroll":"Kaydırma"	
+"unexpectedError":"Bu işlem sırasında beklenmeyen bir hata oluştu. Lütfen tekrar deneyin",    "viewMode":"Sayfa görünümü",    "auto":"Oto",    "scroll":"Kaydırma",    "restricted":"Kısıtlı",    "dontAskAgain":"Bir daha sorma",    "hlightDeleteConfirm":"Bu vurguyu kaldırmak istediğinize emin misiniz?",	"updateAvailable":     "Güncelleme uygun",	"updateAvailableDesc": "Bu kitap için bir güncelleme mevcut. Şimdi güncellemek ister misiniz?",    "updating":            "Güncelleme",    "update":              "Güncelleştirme"	
 }

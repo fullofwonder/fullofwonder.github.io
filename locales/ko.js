@@ -67,7 +67,7 @@
 "bookmarks":"책갈피",
 "highlights":"핵심내용",
 "noNotesAvailable":"설명이 없습니다.",
-"addNotesHintMsg":"각 장에 대한 설명이나 책갈피를 추가하거나 각 장 안에 글을 추가할 수도 있습니다. 특정 문장을 길게 누르시기 바랍니다.",
+"addNotesHintMsg":"메모를 추가하려면 원하는 단어 나 문장을 선택하고 메모 단추를 클릭 한 다음 메모를 입력하고 저장을 누릅니다. 페이지에 메모를 추가하려면 화면의 오른쪽 위 모서리에있는 메모 단추를 클릭하십시오.","addBookmarksHintMsg":"페이지에 북마크를 추가하려면 화면의 오른쪽 상단 모서리에있는 북마크 버튼을 클릭하십시오.","addHighlightsHintMsg":"단어 나 문장을 강조 표시하려면 원하는 단어 나 문장을 선택하고 강조 버튼을 클릭 한 다음 색상을 선택하고 저장을 누르십시오.",
 "chapter":"장",
 "export":"내보내기",
 "share":"공유하기",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"현재의 판촉 코드는 이용할 수 없습니다. 다시 시도하여 주시기 바랍니다.",
 "s_alreadyRedeemed":"이 판촉 코드는 그 이용이 이미 완료되었습니다.",
 "s_codeNoLongerValid":"이 판촉 코드는 더 이상 유효하지 않습니다.",
-"unexpectedError":"이 과정에서 예상치 못한 오류가 발생하였습니다. 다시 시도하여 주시기 바랍니다.",    "viewMode":"페이지보기",    "auto":"자동",    "scroll":"스크롤"	
+"unexpectedError":"이 과정에서 예상치 못한 오류가 발생하였습니다. 다시 시도하여 주시기 바랍니다.",    "viewMode":"페이지보기",    "auto":"자동",    "scroll":"스크롤",    "restricted":"한정된",    "dontAskAgain":"다시 묻지마",    "hlightDeleteConfirm":"이 하이라이트를 제거하겠습니까?",	"updateAvailable":     "업데이트 가능",	"updateAvailableDesc": "이 책에 대한 업데이트가 있습니다. 지금 업데이트하겠습니까?",    "updating":            "업데이트",    "update":              "최신 정보"	
 }

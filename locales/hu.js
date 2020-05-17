@@ -67,7 +67,9 @@
 "bookmarks":"Könyvjelzők",
 "highlights":"Kiemelések",
 "noNotesAvailable":"Nincsenek jegyzetek",
-"addNotesHintMsg":"Megjegyzéseket és könyvjelzőket adhat a fejezetekhez vagy a mondatokhoz a fejezeten belül, ha a mondaton tartja az ujját.",
+"addNotesHintMsg": "Egy megjegyzés hozzáadásához jelölje ki a kívánt szót vagy mondatot, kattintson a Megjegyzés gombra, írja be a jegyzetet, és kattintson a Mentés gombra. Megjegyzés hozzáadásához kattintson a Jegyzet gombra a képernyő jobb felső sarkában.",
+"addBookmarksHintMsg": "Könyvjelző hozzáadásához kattintson a képernyő jobb felső sarkában található Könyvjelző gombra.",
+"addHighlightsHintMsg": "Egy szó vagy mondat kiemeléséhez válassza ki a kívánt szót vagy mondatot, kattintson a Kiemelés gombra, válasszon egy színt, majd kattintson a Mentés gombra.",
 "chapter":"Fejezet",
 "export":"Exportálás",
 "share":"Megosztás",
@@ -264,7 +266,14 @@
 
     "viewMode":"Lapnézet",
     "auto":"Kocsi",
-    "scroll":"Tekercs"
+    "scroll":"Tekercs",
+    "restricted":"Korlátozott",
+    "dontAskAgain":  "Ne kérdezd újra",
+    "hlightDeleteConfirm": "Biztosan el akarja távolítani ezt a kiemelést?"	  ,
+	"updateAvailable":     "Frissítés elérhető",
+	"updateAvailableDesc": "Frissítés érhető el ehhez a könyvhez. Szeretné frissíteni most?",
+    "updating":            "Frissítése",
+    "update":              "Update"
 	
 	
 

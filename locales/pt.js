@@ -67,7 +67,7 @@
 "bookmarks":"Marcadores",
 "highlights":"Destaques",
 "noNotesAvailable":"Nenhuma anotação disponível",
-"addNotesHintMsg":"Você pode adicionar anotações e marcadores para cada capítulo, ou para sentenças dentro dos capítulos clicando e segurando na sentença",
+"addNotesHintMsg": "Para adicionar uma nota, selecione a palavra ou sentença desejada, clique no botão Nota, digite sua nota e pressione Salvar. Para adicionar uma nota à página, clique no botão Nota no canto superior direito da tela.","addBookmarksHintMsg": "Para adicionar um marcador à página, clique no botão Marcador no canto superior direito da tela.","addHighlightsHintMsg": "Para realçar uma palavra ou frase, selecione a palavra ou sentença desejada, clique no botão Realçar, escolha uma cor e clique em Salvar.",
 "chapter":"Capítulo",
 "export":"Exportar",
 "share":"Compartilhar",
@@ -261,5 +261,5 @@
 "s_cantRedeemSameCode":"Você não pode aplicar o seu código promocional atual. Por favor, tente novamente",
 "s_alreadyRedeemed":"Este código promocional já foi aplicado",
 "s_codeNoLongerValid":"Este código promocional não é mais válido",
-"unexpectedError":"Ocorreu um erro inesperado durante este processo. Por favor tente novamente.",    "viewMode":"Vista de página",    "auto":"Auto",    "scroll":"Rolagem"	
+"unexpectedError":"Ocorreu um erro inesperado durante este processo. Por favor tente novamente.",    "viewMode":"Vista de página",    "auto":"Auto",    "scroll":"Rolagem",    "restricted":"Restrito",    "dontAskAgain":"Não pergunte novamente",    "hlightDeleteConfirm":"Tem certeza de que deseja remover este destaque?",	"updateAvailable":     "Atualização disponível",	"updateAvailableDesc": "Está disponível uma atualização para este livro. Deseja atualizá-la agora?",    "updating":            "Atualizando",    "update":              "Atualizar"	
 }

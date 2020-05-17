@@ -1,0 +1,85 @@
+<!--?xml version='1.0' encoding='UTF-8'?--><!DOCTYPE html><html xml:lang="en-us" lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"><head>
+    <link rel="stylesheet" type="text/css" href="../../css/base.css" />
+<link rel="stylesheet" type="text/css" href="../../css/global.css" />
+<link rel="stylesheet" type="text/css" href="../../css/kotobeeInteractive.css" />
+
+    <script type="text/javascript" src="../../js/kotobeeInteractive.js"></script>
+<script type="text/javascript" src="../../js/global.js"></script>
+
+    <title>3.1 Pixel Neighborhoods: Averaging on a Pixel Neighborhood</title>
+    
+
+
+<meta charset="utf-8" />
+<style type="text/css">
+
+ /* Font Definitions */
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"WP MathA";
+	mso-font-alt:"MT Extra";
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"WP Greek Century";
+	mso-font-alt:"MT Extra";
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"WP BoxDrawing";
+	mso-font-alt:"Helvetica Neue Bold Condensed";
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+
+div.WordSection1
+	{page:WordSection1;}
+
+</style>
+ </head>
+<body>
+<p style="text-align: center;"><span style="font-size:1.29em"><span style="font-family:times new roman,times,serif"><strong>Averaging on a Pixel Neighborhood</strong></span></span></p>
+
+<div class="WordSection1">
+<div class="kInteractive questions questions744" data-kotobee="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" id="ki-qs-8213" style="color: rgb(51, 51, 51); padding: 5px; font-size: 1em; direction: ltr;"></div>
+
+<p class="MsoNormal" style="mso-pagination:none;tab-stops:-1.0in -.5in 0in .3in .5in 1.0in 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in 6.0in 6.5in 7.0in 7.5in 8.0in 8.5in 9.0in 9.5in 10.0in 10.5in 11.0in 11.5in 12.0in 12.5in 13.0in"><br />
+<span style="font-size:11.0pt; mso-bidi-font-size:10.0pt"></span></p>
+
+<p class="MsoNormal" style="text-align: center;">&#160;</p>
+
+<p class="MsoNormal" style="mso-pagination:none;tab-stops:-1.0in -.5in 0in .3in .5in 1.0in 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in 6.0in 6.5in 7.0in 7.5in 8.0in 8.5in 9.0in 9.5in 10.0in 10.5in 11.0in 11.5in 12.0in 12.5in 13.0in">&#160;</p>
+</div>
+
+
+</body></html>

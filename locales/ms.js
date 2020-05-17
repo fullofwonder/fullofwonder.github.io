@@ -66,8 +66,7 @@
 "notes":"Nota",
 "bookmarks":"Penanda Buku",
 "highlights":"Penegasan (Highlights)",
-"noNotesAvailable":"Tiada nota boleh didapati",
-"addNotesHintMsg":"Anda boleh menambah nota dan penanda buku untuk setiap bab, atau ayat dalam bab-bab dengan sentuh seketika ayat tersebut",
+"noNotesAvailable":"Tiada nota boleh didapati","addNotesHintMsg": "Untuk menambah nota, pilih perkataan atau kalimat yang diingini, klik butang Nota, ketik nota anda, dan tekan Simpan. Untuk menambah nota ke halaman, klik butang Nota di sudut kanan atas skrin.","addBookmarksHintMsg": "Untuk menambah penanda halaman pada halaman, klik butang Bookmark di penjuru kanan sebelah atas skrin.","addHighlightsHintMsg": "Untuk menyerlahkan perkataan atau kalimat, pilih perkataan atau ayat yang dikehendaki, klik butang Sorotan, pilih warna, dan tekan Simpan.",
 "chapter":"Bab",
 "export":"Eksport",
 "share":"Perkongsian",
@@ -260,5 +259,5 @@
 "s_cantRedeemSameCode":"Anda tidak boleh menebus kod promo semasa anda. Sila cuba lagi",
 "s_alreadyRedeemed":"Kod promo ini telah ditebus",
 "s_codeNoLongerValid":"Kod promosi ini tidak lagi sah",
-"unexpectedError":"Masalah yang tidak dijangka berlaku semasa proses ini. Sila cuba lagi",    "viewMode":"Paparan halaman",    "auto":"Auto",    "scroll":"Tatal"	
+"unexpectedError":"Masalah yang tidak dijangka berlaku semasa proses ini. Sila cuba lagi",    "viewMode":"Paparan halaman",    "auto":"Auto",    "scroll":"Tatal",    "restricted":"Terhad",    "dontAskAgain": "Jangan tanya lagi",    "hlightDeleteConfirm":"Adakah anda pasti mahu mengalih keluar sorotan ini?",	"updateAvailable":     "Kemaskini ada",	"updateAvailableDesc": "Kemas kini tersedia untuk buku ini. Adakah anda ingin mengemas kini sekarang?",    "updating":            "Mengemas kini",    "update":              "Kemas kini"	
 }

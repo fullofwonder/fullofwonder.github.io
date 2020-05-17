@@ -67,7 +67,7 @@
 "bookmarks":"Bladwijzers",
 "highlights":"Highlights",
 "noNotesAvailable":"Geen notities beschikbaar",
-"addNotesHintMsg":"U kunt notities en bladwijzers toevoegen bij elk hoofdstuk, of bij zinnen in een hoofdstuk door op een zin te klikken",
+"addNotesHintMsg": "Om een notitie toe te voegen, selecteert u het gewenste woord of zin, klikt u op de knop Notitie, typt u uw notitie en klikt u op Opslaan. Klik op de knop Notitie in de rechterbovenhoek van het scherm om een notitie aan de pagina toe te voegen.","addBookmarksHintMsg": "Als u een bladwijzer aan de pagina wilt toevoegen, klikt u op de knop Bladwijzer in de rechterbovenhoek van het scherm.","addHighlightsHintMsg": "Om een woord of zin te markeren, selecteert u het gewenste woord of de gewenste zin, klikt u op de knop Markeren, kiest u een kleur en klikt u op Opslaan.",
 "chapter":"Hoofdstuk",
 "export":"Exporteer",
 "share":"Delen",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"U kunt de code niet de huidige promo code inwisselen. Probeer het nogmaals",
 "s_alreadyRedeemed":"Deze promo code is al een keer ingewisseld",
 "s_codeNoLongerValid":"Deze promo code is niet langer geldig",
-"unexpectedError":"Een onverwachte fout trad op tijdens dit proces. Probeer het nogmaals",    "viewMode":"Paginaweergave",    "auto":"Auto",    "scroll":"Rol"	
+"unexpectedError":"Een onverwachte fout trad op tijdens dit proces. Probeer het nogmaals",    "viewMode":"Paginaweergave",    "auto":"Auto",    "scroll":"Rol",    "restricted":"Beperkt",    "dontAskAgain":"Vraag niet opnieuw",    "hlightDeleteConfirm":	"Weet u zeker dat u deze markering wilt verwijderen?",	"updateAvailable":     "Update beschikbaar",	"updateAvailableDesc": "Er is een update beschikbaar voor dit boek. Wilt u deze nu bijwerken?",    "updating":            "Vernieuwing",    "update":              "Bijwerken"	
 }

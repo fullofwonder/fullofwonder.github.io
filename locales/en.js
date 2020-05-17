@@ -66,8 +66,10 @@
     "notes": "Notes",
     "bookmarks": "Bookmarks",
     "highlights": "Highlights",
-    "noNotesAvailable": "No notes available",
-    "addNotesHintMsg": "You can add notes and bookmarks to each chapter, or to sentences inside the chapters by tapping and holding the sentence",
+    "noNotesAvailable": "No Notes Available",
+    "addNotesHintMsg": "To add a note, select the desired word or sentence, click the Note button, type your note, and hit Save. To add a note to the page, click the Note button at the top right corner of the screen.",
+    "addBookmarksHintMsg": "To add a bookmark to the page, click the Bookmark button at the top right corner of the screen.",
+    "addHighlightsHintMsg": "To highlight a word or sentence, select the desired word or sentence, click the Highlight button, choose a color, and hit Save.",
     "chapter": "Chapter",
     "export": "Export",
     "share": "Share",
@@ -270,7 +272,15 @@
 
     "viewMode":"Page view",
     "auto":"Auto",
-    "scroll":"Scroll"
+    "scroll":"Scroll",
+    "restricted":"Restricted",
+    "dontAskAgain":"Don't ask again",
+    "hlightDeleteConfirm":"Are you sure you want to remove this highlight?",
+
+    "updateAvailable":"Update Available",
+    "updateAvailableDesc":"An update is available for this book. Would you like to update it now?",
+    "updating":"Updating",
+    "update":"Update"
 
 
 }

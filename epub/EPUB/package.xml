@@ -1,36 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns# rendition: http://www.idpf.org/vocab/rendition/#" xmlns="http://www.idpf.org/2007/opf">
+<package version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns# rendition: http://www.idpf.org/vocab/rendition/# kotobee: https://www.kotobee.com/vocab# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-        <dc:title id="title">Digital Image Processing</dc:title>
+        <dc:title id="title">Dive into Image Processing</dc:title>
 
-        <dc:identifier id="pub-id">urn:uuid:ecbd6a6b-f6ad-eb6e-37be-4cb582f60c87</dc:identifier>
-        <meta name="cover" content="img0" />
+        <dc:identifier id="pub-id">urn:uuid:10dbba56-83d4-2e55-d33b-7c5cde1e1e05</dc:identifier>
+        <meta name="cover" content="img1" />
 
-        <dc:creator>Kotobee</dc:creator>
+        <dc:creator>Lily R. Liang and Carl G. Looney</dc:creator>
         <dc:publisher>N/A</dc:publisher>
-        <dc:rights>Kotobee</dc:rights>
+        <dc:rights>No rights specified</dc:rights>
         <dc:language>en</dc:language>
-        <dc:description>No description available</dc:description>
-        <meta property="dcterms:modified">2019-02-21T20:33:30Z</meta>
+        <dc:description>&lt;p&gt;No description available&lt;/p&gt;
+</dc:description>
+        <meta property="dcterms:modified">2020-05-17T17:09:14Z</meta>
         <meta property="rendition:layout">reflowable</meta>
+        <meta property="ibooks:interactive">true</meta>
+        <meta property="ibooks:specified-fonts">false</meta>
+        <meta property="kotobee:version">1.6.0</meta>
+        <meta property="kotobee:build">592</meta>
 
     </metadata>
     <manifest>
-        <item id="html0" href="xhtml/raw/ch1.xhtml" media-type="application/xhtml+xml"/>
-<item id="html1" href="xhtml/raw/s9tooq.xhtml" media-type="application/xhtml+xml"/>
-<item id="html2" href="xhtml/raw/stmqjx.xhtml" media-type="application/xhtml+xml"/>
-<item id="html3" href="xhtml/raw/srep1m.xhtml" media-type="application/xhtml+xml"/>
+        <item id="html0" href="xhtml/raw/s9zjeo.xhtml" media-type="application/xhtml+xml"/>
+<item id="html1" href="xhtml/raw/s4n20l.xhtml" media-type="application/xhtml+xml"/>
+<item id="html2" href="xhtml/raw/shr4tj.xhtml" media-type="application/xhtml+xml"/>
+<item id="html3" href="xhtml/raw/shp1tj.xhtml" media-type="application/xhtml+xml"/>
+<item id="html4" href="xhtml/raw/s1sm87.xhtml" media-type="application/xhtml+xml"/>
+<item id="html5" href="xhtml/raw/s530mk.xhtml" media-type="application/xhtml+xml"/>
+<item id="html6" href="xhtml/raw/snn3zs.xhtml" media-type="application/xhtml+xml"/>
+<item id="html7" href="xhtml/raw/s5b5nr05.xhtml" media-type="application/xhtml+xml"/>
+<item id="html8" href="xhtml/raw/sxjnxx.xhtml" media-type="application/xhtml+xml"/>
+<item id="html9" href="xhtml/raw/sfo68w02.xhtml" media-type="application/xhtml+xml"/>
 <item id="contents" href="xhtml/raw/contents.xhtml"  properties="nav" media-type="application/xhtml+xml"/>
 <item id="ncx" href="xhtml/raw/contents.ncx"  media-type="application/x-dtbncx+xml"/>
-<item id="img0" href="imgs/defaultCover.png" properties="cover-image" media-type="image/png"/>
+<item id="img0" href="imgs/averageandvairance.png" media-type="image/png"/>
+<item id="img1" href="imgs/defaultCover.png" properties="cover-image" media-type="image/png"/>
+<item id="img2" href="imgs/maxiumdifferencefusi.png" media-type="image/png"/>
 
     </manifest>
     <spine toc="ncx">
-        <itemref idref="html0" properties="rendition:layout-reflowable"/>
+        <itemref idref="contents" properties="rendition:layout-reflowable"/>
+<itemref idref="html0" properties="rendition:layout-reflowable"/>
 <itemref idref="html1" properties="rendition:layout-reflowable"/>
 <itemref idref="html2" properties="rendition:layout-reflowable"/>
 <itemref idref="html3" properties="rendition:layout-reflowable"/>
+<itemref idref="html4" properties="rendition:layout-reflowable"/>
+<itemref idref="html5" properties="rendition:layout-reflowable"/>
+<itemref idref="html6" properties="rendition:layout-reflowable"/>
+<itemref idref="html7" properties="rendition:layout-reflowable"/>
+<itemref idref="html8" properties="rendition:layout-reflowable"/>
+<itemref idref="html9" properties="rendition:layout-reflowable"/>
 
     </spine>
 

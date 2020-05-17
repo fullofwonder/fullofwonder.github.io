@@ -67,7 +67,7 @@
 "bookmarks":"Favoritter",
 "highlights":"Markeringer",
 "noNotesAvailable":"Ingen notater tilgjengelig",
-"addNotesHintMsg":"Du kan legge til notater og favoritter til hvert kapittel, eller til setninger i kapitlene ved å trykke og holde på setningen",
+"addNotesHintMsg": "For å legge til et notat, velg ønsket ord eller setning, klikk på Notat-knappen, skriv inn notatet og trykk Lagre. Hvis du vil legge til et notat på siden, klikker du på Notat-knappen øverst til høyre på skjermen.","addBookmarksHintMsg": "For å legge til et bokmerke på siden, klikk på bokmerkeknappen øverst til høyre på skjermen.","addHighlightsHintMsg": "For å markere et ord eller en setning, velg ønsket ord eller setning, klikk på Høyde-knappen, velg en farge og trykk Lagre.",
 "chapter":"Kapittel",
 "export":"Eksporter",
 "share":"Del",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"du kan benytte din eksisterende kampanjekode. vennligst prøv igjen.",
 "s_alreadyRedeemed":"denne kampanjekoden har allerede blitt benyttet",
 "s_codeNoLongerValid":"kampanjekoden er ikke lenger gyldig",
-"unexpectedError":"en uventet feil har oppstått i prosessen. vennligst prøv igjen",    "viewMode":"Sidevisning",    "auto":"Auto",    "scroll":"Rull"	
+"unexpectedError":"en uventet feil har oppstått i prosessen. vennligst prøv igjen",    "viewMode":"Sidevisning",    "auto":"Auto",    "scroll":"Rull",    "restricted":"Begrenset",    "dontAskAgain": "Ikke spør igjen",    "hlightDeleteConfirm":"Er du sikker på at du vil fjerne dette høydepunktet?",	"updateAvailable":     "Oppdatering tilgjengelig",	"updateAvailableDesc": "En oppdatering er tilgjengelig for denne boken. Vil du oppdatere den nå?",    "updating":            "Oppdatere",    "update":              "Oppdater"	
 }

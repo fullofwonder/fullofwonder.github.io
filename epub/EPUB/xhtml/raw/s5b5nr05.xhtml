@@ -1,0 +1,93 @@
+<!--?xml version='1.0' encoding='UTF-8'?--><!DOCTYPE html><html xml:lang="en-us" lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"><head>
+    <link rel="stylesheet" type="text/css" href="../../css/base.css" />
+<link rel="stylesheet" type="text/css" href="../../css/global.css" />
+<link rel="stylesheet" type="text/css" href="../../css/kotobeeInteractive.css" />
+
+    <script type="text/javascript" src="../../js/kotobeeInteractive.js"></script>
+<script type="text/javascript" src="../../js/global.js"></script>
+
+    <title>3.4 Detecting Edges and Lines: Line Detection</title>
+    
+
+
+<meta charset="utf-8" />
+<style type="text/css">
+
+ /* Font Definitions */
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"WP MathA";
+	mso-font-alt:"MT Extra";
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"WP Greek Century";
+	mso-font-alt:"MT Extra";
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"WP BoxDrawing";
+	mso-font-alt:"Helvetica Neue Bold Condensed";
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+ /* Page Definitions */
+
+div.WordSection1
+	{page:WordSection1;}
+
+</style>
+ </head>
+<body>
+<div class="WordSection1">
+<p class="MsoNormal" style="text-align: center;"><span style="font-family:times new roman,times,serif"><span style="font-size:1.14em"><strong>Line Detection</strong></span></span></p>
+
+<div>
+<div class="kInteractive questions questions646" data-kotobee="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" id="ki-qs-1851" style="color: rgb(51, 51, 51); padding: 5px; font-size: 1em; direction: ltr;"></div>
+</div>
+
+<div><span style="font-size:11.0pt; mso-bidi-font-size:10.0pt"></span></div>
+
+<div>
+<div style="text-align: justify;">&#160;</div>
+</div>
+
+<p class="MsoNormal" style="mso-pagination:none;tab-stops:-1.0in -.5in 0in .3in .5in 1.0in 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in 6.0in 6.5in 7.0in 7.5in 8.0in 8.5in 9.0in 9.5in 10.0in 10.5in 11.0in 11.5in 12.0in 12.5in 13.0in"><span style="color:#FF0000"></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;tab-stops:-1.0in -.5in 0in .3in .5in 1.0in 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in 6.0in 6.5in 7.0in 7.5in 8.0in 8.5in 9.0in 9.5in 10.0in 10.5in 11.0in 11.5in 12.0in 12.5in 13.0in"><span style="color:#FF0000"><span style="-webkit-text-stroke-width:0px; display:inline !important; float:none; font-family:times; font-size:medium; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; orphans:2; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; white-space:normal; widows:2; word-spacing:0px"></span></span></p>
+
+<p class="MsoNormal" style="mso-pagination:none;tab-stops:-1.0in -.5in 0in .3in .5in 1.0in 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in 6.0in 6.5in 7.0in 7.5in 8.0in 8.5in 9.0in 9.5in 10.0in 10.5in 11.0in 11.5in 12.0in 12.5in 13.0in"><span style="font-size:11.0pt; mso-bidi-font-size:10.0pt"></span></p>
+</div>
+
+
+</body></html>

@@ -67,7 +67,7 @@
 "bookmarks":"Semne de carte",
 "highlights":"Repere",
 "noNotesAvailable":"Nu sunt notiţe",
-"addNotesHintMsg":"Puteţi adăuga notiţe şi semne de carte fiecărui capitol, sau propoziţiilor din interiorul capitolelor printr-un click pe propoziţie",
+"addNotesHintMsg": "Pentru a adăuga o notă, selectați cuvântul sau propoziția dorită, faceți clic pe butonul Notă, introduceți nota și apăsați Salvați. Pentru a adăuga o notă la pagină, faceți clic pe butonul Notă din colțul din dreapta sus al ecranului.","addBookmarksHintMsg": "Pentru a adăuga un marcaj la pagină, faceți clic pe butonul Bookmark în colțul din dreapta sus al ecranului.","addHighlightsHintMsg": "Pentru a evidenția un cuvânt sau propoziție, selectați cuvântul sau propoziția dorită, faceți clic pe butonul Evidențiere, alegeți o culoare și apăsați Salvare.",
 "chapter":"Capitol",
 "export":"Export",
 "share":"Împărtăşire",
@@ -260,5 +260,5 @@
 "s_cantRedeemSameCode":"Nu puteți activa un cod promoțional deja activat. Vă rugăm să încercați din nou",
 "s_alreadyRedeemed":"Codul promoțional a fost deja activat",
 "s_codeNoLongerValid":"Codul promoțional nu mai este valabil",
-"unexpectedError":"În timpul procesului a apărut o eroare neașteptată. Vă rugăm să încercați din nou",    "viewMode":"Vizualizare pagina",    "auto":"Auto",    "scroll":"Sul"	
+"unexpectedError":"În timpul procesului a apărut o eroare neașteptată. Vă rugăm să încercați din nou",    "viewMode":"Vizualizare pagina",    "auto":"Auto",    "scroll":"Sul",    "restricted":"Restrâns",    "dontAskAgain":"Nu mai întreba",    "hlightDeleteConfirm":"Sunteți sigur că doriți să eliminați această evidențiere?" ,	"updateAvailable":     "Actualizare disponibila",	"updateAvailableDesc": "O actualizare este disponibilă pentru această carte. Doriți să o actualizați acum?",    "updating":            "Actualizarea",    "update":              "Actualizați"	
 }
